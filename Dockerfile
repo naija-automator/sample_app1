@@ -5,7 +5,7 @@ FROM node:10.9.0
 COPY . .
 
 #Installs the dependencies using NPM
-RUN npm install npm@latest
+RUN npm install npm
 
 #Documents the port the app will listen on
 EXPOSE 8000
