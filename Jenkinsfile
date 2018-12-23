@@ -6,7 +6,7 @@ node {
         }
         
         stage('Build image') {
-                app = docker.build('naijaautomator1/sample_app12')
+                app = docker.build('naijaautomator1/sample_app13')
         }
 
         stage('Push image') {
